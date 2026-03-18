@@ -1,0 +1,52 @@
+# =============================================================================
+# NMF Analysis Configuration
+# =============================================================================
+
+project:
+  name: "ERSR-GBM-Subtypes"
+  module: "NMF_Analysis"
+  version: "1.0.0"
+
+# :: Paths (relative to project root)
+paths:
+  input_data: "Preprocessing/results/GBM/betas_GBM.RData"
+  output_dir: "results/NMF"
+  cache_dir: "cache/NMF"
+  figures_dir: "results/NMF/figures"
+
+# :: NMF Parameters
+nmf:
+  rank_range:
+    min: 2
+    max: 10
+    step: 1
+  nrun: 50
+  seed: 42
+  method: "brunet"
+  max_iter: 10000
+  cophenetic_threshold: 0.01
+
+# :: Visualization
+viz:
+  dpi: 300
+  width: 8
+  height: 6
+  units: "in"
+  consensus_palette: "YlOrRd"
+  sample_palette: "Set2"
+  formats: ["png", "tiff", "pdf"]
+  use_cairo: true
+
+# :: Output
+output:
+  save_consensus_matrix: true
+  save_coefficients: true
+  save_assignments: true
+  file_format: "RData"
+  compression: true
+
+# :: Logging
+logging:
+  level: "INFO"
+  log_to_file: true
+  log_to_console: true
