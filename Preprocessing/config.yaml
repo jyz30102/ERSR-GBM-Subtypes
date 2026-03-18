@@ -1,5 +1,5 @@
 # =============================================================================
-# GBM/LGG Methylation Preprocessing Configuration
+# GBM Methylation Preprocessing Configuration
 # =============================================================================
 
 project:
@@ -11,14 +11,14 @@ project:
 paths:
   raw_idat: "data/raw/GSE90496_RAW"          # Raw IDAT files from GEO
   filter_dir: "data/filters"                  # Probe filter lists
-  output_dir: "results/GBMLGG"                # Output directory
-  log_dir: "results/GBMLGG/logs"              # Log files
+  output_dir: "results/GBM"                # Output directory
+  log_dir: "results/GBM/logs"              # Log files
   functions_script: "R/MNPprocessIDAT_functions.R"  # Custom functions
 
 # :: GEO Dataset
 geo:
   accession: "GSE90496"
-  target_classes: ["LGG", "GBM"]              # Classes to include
+  target_classes: "GBM"              # Classes to include
   methylation_class_col: "methylation class:ch1"
   material_col: "material:ch1"                # FFPE/Frozen indicator
 
