@@ -1,0 +1,63 @@
+# =============================================================================
+# GBM/LGG Methylation Preprocessing Configuration
+# =============================================================================
+
+project:
+  name: "GBM_Methylation_Preprocessing"
+  version: "1.0.0"
+  description: "Preprocessing pipeline for GSE90496 methylation data"
+
+# :: Paths (all relative to project root)
+paths:
+  raw_idat: "data/raw/GSE90496_RAW"          # Raw IDAT files from GEO
+  filter_dir: "data/filters"                  # Probe filter lists
+  output_dir: "results/GBMLGG"                # Output directory
+  log_dir: "results/GBMLGG/logs"              # Log files
+  functions_script: "R/MNPprocessIDAT_functions.R"  # Custom functions
+
+# :: GEO Dataset
+geo:
+  accession: "GSE90496"
+  target_classes: ["LGG", "GBM"]              # Classes to include
+  methylation_class_col: "methylation class:ch1"
+  material_col: "material:ch1"                # FFPE/Frozen indicator
+
+# :: Preprocessing Parameters
+preprocessing:
+  # Probe filtering
+  filters:
+    ambiguous: "amb_3965probes.vh20151030.txt"
+    epic: "epicV1B2_32260probes.vh20160325.txt"
+    snp: "snp_7998probes.vh20151030.txt"
+    xy: "xy_11551probes.vh20151030.txt"
+    remove_rs_probes: true                    # Remove probes with "rs" in name
+    remove_ch_probes: true                    # Remove probes with "ch" in name
+  
+  # Batch correction
+  batch_correction:
+    method: "limma"                           # removeBatchEffect from limma
+    batch_col: "material:ch1"                 # Column defining batches
+    batch_levels: 
+      Frozen: 1
+      FFPE: 2
+    pseudocount: 1                            # For log2 transformation
+    offset: 100                               # For beta calculation
+  
+  # Beta value calculation
+  beta:
+    formula: "methy / (methy + unmethy + offset)"  # Illumina-style
+    offset: 100
+
+# :: Output Settings
+output:
+  save_intermediate: true                     # Save Mset_filtered, ba.coef
+  save_final_beta: true                       # Save betas.ba
+  file_format: "RData"                        # RData or CSV
+  compression: true                           # Compress RData files
+
+# :: Logging
+logging:
+  level: "INFO"                               # DEBUG, INFO, WARN, ERROR
+  log_to_file: true
+  log_to_console: true
+  timestamp_format: "%Y-%m-%d %H:%M:%S"
