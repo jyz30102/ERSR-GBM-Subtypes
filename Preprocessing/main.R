@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 #' =============================================================================
-#' Project: GBM/LGG Methylation Preprocessing Pipeline
+#' Project: GBM Methylation Preprocessing Pipeline
 #' Module:  main.R
 #' Purpose: Orchestrate the complete preprocessing workflow for GSE90496
 #' =============================================================================
@@ -36,7 +36,7 @@ gse <- getGEO(
 anno <- pData(gse[[1]])  # Extract phenotype data
 .log_msg(sprintf("Downloaded annotation: %d samples", nrow(anno)), "INFO")
 
-# Filter for target classes (LGG + GBM)
+# Filter for target classes (GBM)
 target_classes <- config$geo$target_classes
 class_col <- config$geo$methylation_class_col
 
