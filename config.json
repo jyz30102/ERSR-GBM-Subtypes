@@ -1,0 +1,30 @@
+{
+    "paths": {
+        "input_data": "data/GBM_NMF_group4.csv",
+        "cache_dir": "cache",
+        "output_dir": "results",
+        "output_prefix": "GBM_group4"
+    },
+    "params": {
+        "iteration_list": [10, 20, 30, 40, 50],
+        "cv_splits": 5,
+        "scoring": "accuracy",
+        "vote_threshold": 1.0
+    },
+    "models": {
+        "rf": {
+            "type": "RandomForest",
+            "random_state": 42
+        },
+        "svm": {
+            "type": "SVC",
+            "kernel": "linear",
+            "random_state": 42
+        },
+        "xgb": {
+            "type": "XGB",
+            "random_state": 42,
+            "use_label_encoder": false
+        }
+    }
+}
