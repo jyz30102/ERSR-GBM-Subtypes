@@ -1,0 +1,558 @@
+Cell type,Symbol
+aDC,CCL1
+aDC,EBI3
+aDC,INDO
+aDC,LAMP3
+aDC,OAS3
+B cells,ABCB4
+B cells,BACH2
+B cells,BCL11A
+B cells,BLK
+B cells,BLNK
+B cells,CCR9
+B cells,CD19
+B cells,CD72
+B cells,COCH
+B cells,CR2
+B cells,DTNB
+B cells,FCRL2
+B cells,GLDC
+B cells,GNG7
+B cells,HLA-DOB
+B cells,HLA-DQA1
+B cells,IGHA1
+B cells,IGHG1
+B cells,IGHM
+B cells,IGKC
+B cells,IGL
+B cells,KIAA0125
+B cells,MEF2C
+B cells,MICAL3
+B cells,MS4A1
+B cells,OSBPL10
+B cells,PNOC
+B cells,QRSL1
+B cells,SCN3A
+B cells,SLC15A2
+B cells,SPIB
+B cells,TCL1A
+B cells,TNFRSF17
+CD8 T cells,ABT1
+CD8 T cells,AES
+CD8 T cells,APBA2
+CD8 T cells,ARHGAP8
+CD8 T cells,C12orf47
+CD8 T cells,C19orf6
+CD8 T cells,C4orf15
+CD8 T cells,CAMLG
+CD8 T cells,CD8A
+CD8 T cells,CD8B
+CD8 T cells,CDKN2AIP
+CD8 T cells,DNAJB1
+CD8 T cells,FLT3LG
+CD8 T cells,GADD45A
+CD8 T cells,GZMM
+CD8 T cells,KLF9
+CD8 T cells,LEPROTL1
+CD8 T cells,LIME1
+CD8 T cells,MYST3
+CD8 T cells,PF4
+CD8 T cells,PPP1R2
+CD8 T cells,PRF1
+CD8 T cells,PRR5
+CD8 T cells,RBM3
+CD8 T cells,SF1
+CD8 T cells,SFRS7
+CD8 T cells,SLC16A7
+CD8 T cells,TBCC
+CD8 T cells,THUMPD1
+CD8 T cells,TMC6
+CD8 T cells,TSC22D3
+CD8 T cells,VAMP2
+CD8 T cells,ZEB1
+CD8 T cells,ZFP36L2
+CD8 T cells,ZNF22
+CD8 T cells,ZNF609
+CD8 T cells,ZNF91
+Cytotoxic cells,APBA2
+Cytotoxic cells,APOL3
+Cytotoxic cells,CTSW
+Cytotoxic cells,DUSP2
+Cytotoxic cells,GNLY
+Cytotoxic cells,GZMA
+Cytotoxic cells,GZMH
+Cytotoxic cells,KLRB1
+Cytotoxic cells,KLRD1
+Cytotoxic cells,KLRF1
+Cytotoxic cells,KLRK1
+Cytotoxic cells,NKG7
+Cytotoxic cells,RORA
+Cytotoxic cells,RUNX3
+Cytotoxic cells,SIGIRR
+Cytotoxic cells,WHAMMP3
+Cytotoxic cells,ZBTB16
+DC,CCL13
+DC,CCL17
+DC,CCL22
+DC,CD209
+DC,HSD11B1
+DC,NPR1
+DC,PPFIBP2
+Eosinophils,ABHD2
+Eosinophils,ACACB
+Eosinophils,C9orf156
+Eosinophils,CAT
+Eosinophils,CCR3
+Eosinophils,CLC
+Eosinophils,CYSLTR2
+Eosinophils,EMR1
+Eosinophils,EPN2
+Eosinophils,GALC
+Eosinophils,GPR44
+Eosinophils,HES1
+Eosinophils,HIST1H1C
+Eosinophils,HRH4
+Eosinophils,IGSF2
+Eosinophils,IL5RA
+Eosinophils,KBTBD11
+Eosinophils,KCNH2
+Eosinophils,LRP5L
+Eosinophils,MYO15B
+Eosinophils,RCOR3
+Eosinophils,RNASE2
+Eosinophils,RRP12
+Eosinophils,SIAH1
+Eosinophils,SMPD3
+Eosinophils,SYNJ1
+Eosinophils,TGIF1
+Eosinophils,THBS1
+Eosinophils,THBS4
+Eosinophils,TIPARP
+Eosinophils,TKTL1
+iDC,ABCG2
+iDC,BLVRB
+iDC,CARD9
+iDC,CD1A
+iDC,CD1B
+iDC,CD1C
+iDC,CD1E
+iDC,CH25H
+iDC,CLEC10A
+iDC,CSF1R
+iDC,CTNS
+iDC,F13A1
+iDC,FABP4
+iDC,FZD2
+iDC,GSTT1
+iDC,GUCA1A
+iDC,HS3ST2
+iDC,LMAN2L
+iDC,MMP12
+iDC,MS4A6A
+iDC,NUDT9
+iDC,PDXK
+iDC,PPARG
+iDC,PREP
+iDC,RAP1GAP
+iDC,SLC26A6
+iDC,SLC7A8
+iDC,SYT17
+iDC,TACSTD2
+iDC,TM7SF4
+iDC,VASH1
+Macrophages,APOE
+Macrophages,ATG7
+Macrophages,BCAT1
+Macrophages,CCL7
+Macrophages,CD163
+Macrophages,CD68
+Macrophages,CD84
+Macrophages,CHI3L1
+Macrophages,CHIT1
+Macrophages,CLEC5A
+Macrophages,COL8A2
+Macrophages,COLEC12
+Macrophages,CTSK
+Macrophages,CXCL5
+Macrophages,CYBB
+Macrophages,DNASE2B
+Macrophages,EMP1
+Macrophages,FDX1
+Macrophages,FN1
+Macrophages,GM2A
+Macrophages,GPC4
+Macrophages,KAL1
+Macrophages,MARCO
+Macrophages,ME1
+Macrophages,MS4A4A
+Macrophages,MSR1
+Macrophages,PCOLCE2
+Macrophages,PTGDS
+Macrophages,RAI14
+Macrophages,SCARB2
+Macrophages,SCG5
+Macrophages,SGMS1
+Macrophages,SULT1C2
+Mast cells,ABCC4
+Mast cells,ADCYAP1
+Mast cells,CALB2
+Mast cells,CEACAM8
+Mast cells,CMA1
+Mast cells,CPA3
+Mast cells,CTSG
+Mast cells,ELA2
+Mast cells,GATA2
+Mast cells,HDC
+Mast cells,HPGD
+Mast cells,HPGDS
+Mast cells,KIT
+Mast cells,LINC01140
+Mast cells,MAOB
+Mast cells,MLPH
+Mast cells,MPO
+Mast cells,MS4A2
+Mast cells,NR0B1
+Mast cells,PPM1H
+Mast cells,PRG2
+Mast cells,PTGS1
+Mast cells,SCG2
+Mast cells,SIGLEC6
+Mast cells,SLC18A2
+Mast cells,SLC24A3
+Mast cells,TAL1
+Mast cells,TPSAB1
+Mast cells,TPSB2
+Mast cells,VWA5A
+Neutrophils,ALPL
+Neutrophils,BST1
+Neutrophils,CD93
+Neutrophils,CEACAM3
+Neutrophils,CREB5
+Neutrophils,CRISPLD2
+Neutrophils,CSF3R
+Neutrophils,CYP4F3
+Neutrophils,DYSF
+Neutrophils,FCAR
+Neutrophils,FCGR3B
+Neutrophils,FLJ11151
+Neutrophils,FPR1
+Neutrophils,FPRL1
+Neutrophils,G0S2
+Neutrophils,HIST1H2BC
+Neutrophils,HPSE
+Neutrophils,IL8RA
+Neutrophils,IL8RB
+Neutrophils,KCNJ15
+Neutrophils,LILRB2
+Neutrophils,MGAM
+Neutrophils,MME
+Neutrophils,PDE4B
+Neutrophils,S100A12
+Neutrophils,SIGLEC5
+Neutrophils,SLC22A4
+Neutrophils,SLC25A37
+Neutrophils,TECPR2
+Neutrophils,TNFRSF10C
+Neutrophils,VNN3
+NK CD56bright cells,DUSP4
+NK CD56bright cells,FOXJ1
+NK CD56bright cells,LPCAT4
+NK CD56bright cells,MADD
+NK CD56bright cells,6-Mar
+NK CD56bright cells,MPPED1
+NK CD56bright cells,MUC3B
+NK CD56bright cells,NIBP
+NK CD56bright cells,PLA2G6
+NK CD56bright cells,RRAD
+NK CD56bright cells,XCL1
+NK CD56dim cells,EDG8
+NK CD56dim cells,FLJ20699
+NK CD56dim cells,GTF3C1
+NK CD56dim cells,GZMB
+NK CD56dim cells,IL21R
+NK CD56dim cells,KIR2DL3
+NK CD56dim cells,KIR2DS1
+NK CD56dim cells,KIR2DS2
+NK CD56dim cells,KIR2DS5
+NK CD56dim cells,KIR3DL1
+NK CD56dim cells,KIR3DL2
+NK CD56dim cells,KIR3DL3
+NK CD56dim cells,KIR3DS1
+NK CD56dim cells,SPON2
+NK CD56dim cells,TMEPAI
+NK cells,ADARB1
+NK cells,AF107846
+NK cells,ALDH1B1
+NK cells,APBB2
+NK cells,ATL2
+NK cells,BCL2
+NK cells,CDC5L
+NK cells,FGF18
+NK cells,FUT5
+NK cells,FZR1
+NK cells,GAGE2A
+NK cells,IGFBP5
+NK cells,KANK2
+NK cells,LDB3
+NK cells,MAPRE3
+NK cells,MCM3AP
+NK cells,MRC2
+NK cells,NCR1
+NK cells,PDLIM4
+NK cells,PRX
+NK cells,PSMD4
+NK cells,RP5-886K2.1
+NK cells,SGMS1
+NK cells,SLC30A5
+NK cells,SMEK1
+NK cells,SPN
+NK cells,TBXA2R
+NK cells,TCTN2
+NK cells,TINAGL1
+NK cells,TRPV6
+NK cells,XCL1
+NK cells,XCL2
+NK cells,ZNF205
+NK cells,ZNF528
+NK cells,ZNF747
+pDC,IL3RA
+T cells,BCL11B
+T cells,CD2
+T cells,CD28
+T cells,CD3D
+T cells,CD3E
+T cells,CD3G
+T cells,CD6
+T cells,CD96
+T cells,GIMAP5
+T cells,ITM2A
+T cells,LCK
+T cells,NCALD
+T cells,PRKCQ
+T cells,SH2D1A
+T cells,SKAP1
+T cells,TRA
+T cells,TRAC
+T cells,TRAT1
+T cells,TRBC1
+T helper cells,ANP32B
+T helper cells,ASF1A
+T helper cells,ATF2
+T helper cells,BATF
+T helper cells,C13orf34
+T helper cells,CD28
+T helper cells,DDX50
+T helper cells,FAM111A
+T helper cells,FRYL
+T helper cells,GOLGA8A
+T helper cells,ICOS
+T helper cells,ITM2A
+T helper cells,LRBA
+T helper cells,NAP1L4
+T helper cells,NUP107
+T helper cells,PHF10
+T helper cells,PPP2R5C
+T helper cells,RPA1
+T helper cells,SEC24C
+T helper cells,SLC25A12
+T helper cells,SRSF10
+T helper cells,TRA
+T helper cells,UBE2L3
+T helper cells,YME1L1
+Tcm cells,AQP3
+Tcm cells,ATF7IP
+Tcm cells,ATM
+Tcm cells,CASP8
+Tcm cells,CDC14A
+Tcm cells,CEP68
+Tcm cells,CLUAP1
+Tcm cells,CREBZF
+Tcm cells,CYLD
+Tcm cells,DOCK9
+Tcm cells,FAM153B
+Tcm cells,FOXP1
+Tcm cells,FYB
+Tcm cells,HNRPH1
+Tcm cells,INPP4B
+Tcm cells,KLF12
+Tcm cells,LOC441155
+Tcm cells,MAP3K1
+Tcm cells,MLL
+Tcm cells,N4BP2L2-IT2
+Tcm cells,NEFL
+Tcm cells,NFATC3
+Tcm cells,PCM1
+Tcm cells,PCNX
+Tcm cells,PDXDC2
+Tcm cells,PHC3
+Tcm cells,POLR2J2
+Tcm cells,PSPC1
+Tcm cells,REPS1
+Tcm cells,RPP38
+Tcm cells,SLC7A6
+Tcm cells,SNRPN
+Tcm cells,ST3GAL1
+Tcm cells,STX16
+Tcm cells,TIMM8A
+Tcm cells,TRAF3IP3
+Tcm cells,TXK
+Tcm cells,TXLNGY
+Tcm cells,USP9Y
+Tem cells,AKT3
+Tem cells,C7orf54
+Tem cells,CCR2
+Tem cells,DDX17
+Tem cells,EWSR1
+Tem cells,FLI1
+Tem cells,GDPD5
+Tem cells,LTK
+Tem cells,MEFV
+Tem cells,NFATC4
+Tem cells,PRKY
+Tem cells,TBC1D5
+Tem cells,TBCD
+Tem cells,TRA
+Tem cells,VIL2
+Tfh cells,B3GAT1
+Tfh cells,BLR1
+Tfh cells,C18orf1
+Tfh cells,CDK5R1
+Tfh cells,CHGB
+Tfh cells,CHI3L2
+Tfh cells,CXCL13
+Tfh cells,HEY1
+Tfh cells,HIST1H4K
+Tfh cells,ICA1
+Tfh cells,KCNK5
+Tfh cells,KIAA1324
+Tfh cells,MAF
+Tfh cells,MAGEH1
+Tfh cells,MKL2
+Tfh cells,MYO6
+Tfh cells,MYO7A
+Tfh cells,PASK
+Tfh cells,PDCD1
+Tfh cells,POMT1
+Tfh cells,PTPN13
+Tfh cells,PVALB
+Tfh cells,SH3TC1
+Tfh cells,SIRPG
+Tfh cells,SLC7A10
+Tfh cells,SMAD1
+Tfh cells,ST8SIA1
+Tfh cells,STK39
+Tfh cells,THADA
+Tfh cells,TOX
+Tfh cells,TSHR
+Tfh cells,ZNF764
+Tgd cells,C1orf61
+Tgd cells,CD160
+Tgd cells,FEZ1
+Tgd cells,TARP
+Tgd cells,TRD
+Tgd cells,TRGV9
+Th1 cells,APBB2
+Th1 cells,APOD
+Th1 cells,ATP9A
+Th1 cells,BST2
+Th1 cells,BTG3
+Th1 cells,CCL4
+Th1 cells,CD38
+Th1 cells,CD70
+Th1 cells,CMAH
+Th1 cells,CSF2
+Th1 cells,CTLA4
+Th1 cells,DGKI
+Th1 cells,DOK5
+Th1 cells,DPP4
+Th1 cells,DUSP5
+Th1 cells,EGFL6
+Th1 cells,GGT1
+Th1 cells,HBEGF
+Th1 cells,IFNG
+Th1 cells,IL12RB2
+Th1 cells,IL22
+Th1 cells,LRP8
+Th1 cells,LRRN3
+Th1 cells,LTA
+Th1 cells,SGCB
+Th1 cells,SYNGR3
+Th1 cells,ZBTB32
+Th17 cells,IL17A
+Th17 cells,IL17RA
+Th17 cells,RORC
+Th2 cells,ADCY1
+Th2 cells,AHI1
+Th2 cells,ANK1
+Th2 cells,BIRC5
+Th2 cells,CDC25C
+Th2 cells,CDC7
+Th2 cells,CENPF
+Th2 cells,CXCR6
+Th2 cells,DHFR
+Th2 cells,EVI5
+Th2 cells,GATA3
+Th2 cells,GSTA4
+Th2 cells,HELLS
+Th2 cells,IL26
+Th2 cells,LAIR2
+Th2 cells,LIMA1
+Th2 cells,MB
+Th2 cells,MICAL2
+Th2 cells,NEIL3
+Th2 cells,PHEX
+Th2 cells,PMCH
+Th2 cells,PTGIS
+Th2 cells,SLC39A14
+Th2 cells,SMAD2
+Th2 cells,SNRPD1
+Th2 cells,WDHD1
+Treg cells,FOXP3
+Angiogenesis,CDH5
+Angiogenesis,ELTD1
+Angiogenesis,CLEC14A
+Angiogenesis,LDB2
+Angiogenesis,ECSCR
+Angiogenesis,MYCT1
+Angiogenesis,RHOJ
+Angiogenesis,VWF
+Angiogenesis,TIE1
+Angiogenesis,KDR
+Angiogenesis,ESAM
+Angiogenesis,PTPRB
+Angiogenesis,GPR116
+Angiogenesis,SPARCL1
+Angiogenesis,EMCN
+Angiogenesis,ROBO4
+Angiogenesis,ENG
+Angiogenesis,TEK
+Angiogenesis,S1PR1
+Angiogenesis,A2M
+Angiogenesis,JAM2
+Angiogenesis,COL15A1
+Angiogenesis,PECAM1
+Angiogenesis,CALCRL
+Angiogenesis,CLEC3B
+Angiogenesis,PLVAP
+Angiogenesis,RGS5
+Angiogenesis,LRRC32
+Angiogenesis,EBF1
+Angiogenesis,ADCY4
+Angiogenesis,ACVRL1
+Angiogenesis,GPR124
+Angiogenesis,APLNR
+Angiogenesis,TM4SF18
+Angiogenesis,GNG11
+Angiogenesis,CNRIP1
+Angiogenesis,ZNF423
+Angiogenesis,GIMAP8
+Angiogenesis,PDGFD
+Angiogenesis,ITGA9
+Angiogenesis,EDNRB
+Antigen presenting machinery,HLA-A
+Antigen presenting machinery,HLA-B
+Antigen presenting machinery,HLA-C
+Antigen presenting machinery,B2M
+Antigen presenting machinery,TAP1
+Antigen presenting machinery,TAP2
+Antigen presenting machinery,TAPBP
