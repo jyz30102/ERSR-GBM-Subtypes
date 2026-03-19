@@ -9,8 +9,12 @@
 
 ### Python Packages (≥ 3.8)
 - **pandas** (≥ 1.5.0)
-- **scikit-learn** (≥ 1.2.0)
+- **scikit-learn** (≥ 1.2.0) - RFECV
 - **xgboost** (≥ 1.7.0)
 - **scipy** (≥ 1.10.0)
 - **numpy** (≥ 1.23.0)
 - **matplotlib** (≥ 3.7.0)
+
+### Raw Data Sources
+- **GSE90496 (MethylationEPIC)**: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90496
+- **TCGA-GBM (UCSC Xena)**: https://xenabrowser.net/datapages/?cohort=TCGA%20Glioblastoma%20(GBM)
