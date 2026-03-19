@@ -1,0 +1,20 @@
+{
+    "paths": {
+        "ers_genes": "data/ERSRgenes.csv",
+        "id_map": "data/IDmap.csv",
+        "output_dir": "results/mapping",
+        "output_file": "map_result.csv"
+    },
+    "params": {
+        "gene_column": "Gene",
+        "probe_gene_column": "UCSC_RefGene_Name",
+        "probe_id_column": "ID",
+        "probe_chr_column": "CHR",
+        "probe_island_column": "UCSC_CpG_Islands_Name",
+        "probe_enhancer_column": "Enhancer"
+    },
+    "output": {
+        "columns": ["gene", "ori_idx", "ID", "CHR", "UCSC_CpG_Islands_Name", "Enhancer"],
+        "format": "csv"
+    }
+}
