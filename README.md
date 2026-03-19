@@ -16,5 +16,5 @@
 - **matplotlib** (≥ 3.7.0)
 
 ### Raw Data Sources
-- **GSE90496 (MethylationEPIC)**: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90496
-- **TCGA-GBM (UCSC Xena)**: https://xenabrowser.net/datapages/?cohort=TCGA%20Glioblastoma%20(GBM)
+- **GSE90496 (MethylationEPIC)**: [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90496](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi)
+- **TCGA-GBM (UCSC Xena)**: [https://xenabrowser.net/datapages/?cohort=TCGA%20Glioblastoma%20(GBM)](https://xenabrowser.net/datapages/?dataset=TCGA.GBM.sampleMap%2FHumanMethylation450&host=https%3A%2F%2Ftcga.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
